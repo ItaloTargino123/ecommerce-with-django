@@ -102,7 +102,7 @@
 
 
     var form = document.getElementById("form")
-    csrftoken = document.getElementsByTagName("input")[0].value
+    csrftoken = form.getElementsByTagName("input")[0].value
 
     form.addEventListener("submit", function (e) {
         e.preventDefault()
